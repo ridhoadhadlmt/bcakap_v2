@@ -1,0 +1,309 @@
+@font-face{
+	font-family: 'OpenSansLight';
+	src: url('../fonts/OpenSans/OpenSans-Light.ttf');
+}
+@font-face{
+	font-family: 'OpenSans';
+	src: url('../fonts/OpenSans/OpenSans-Regular.ttf');
+}
+@font-face{
+	font-family: 'OpenSansSemiBold';
+	src: url('../fonts/OpenSans/OpenSans-SemiBold.ttf');
+}
+@font-face{
+	font-family: 'OpenSansBold';
+	src: url('../fonts/OpenSans/OpenSans-Bold.ttf');
+}
+html{
+	position: relative;
+}
+body{
+	font-family: 'OpenSans';
+	background-color: #ECF5F5;
+}
+.navbar{
+	padding: 1.5rem 1rem;
+	position: absolute;
+	top: 0;
+	z-index: 1080;
+	width: 100%;
+}
+.navbar-fixed{
+	position: sticky;
+	z-index: 1030;
+	padding: 1rem 0rem;
+	top: 0;
+	background-color: #FFF;
+	transition: .5s;
+}	
+.navbar-brand{
+	font-family: 'OpenSansBold';
+	font-size: 28px;
+	color: #EA472C;
+}
+.navbar-brand:hover{
+	color: #EA472C;
+	transition: .5s;
+}
+.navbar .nav-item{
+	margin-left: 15px;
+}
+.navbar .nav-link{
+	font-size: 18px;
+	color: #000;
+	font-family: 'OpenSansSemiBold';
+}
+.navbar .nav-item.active a{
+	color: #EA472C;
+	font-family: 'OpenSansBold';	
+}
+.navbar .nav-link:hover{
+	color: #EA472C;
+	transition: .5s;	
+}
+.navbar-toggler{
+	border: none;
+	outline-color: none;
+	color: #EA472C;
+	padding: 0;
+	width: 40px;
+	height: 40px;
+}
+.bckp-home-hero{
+	padding: 3rem 0rem;
+	background-color: #ECF5F5;
+}
+.bckp-home-hero-img{
+	position: relative;
+	overflow: hidden;
+	min-height: 800px;
+	width: 100%;
+}
+.bckp-home-hero-img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.bckp-home-about{
+	background-color: #FFF;
+	
+}
+.bckp-home-about{
+
+}
+.bckp-home-about .about-content{
+	
+}
+.bckp-home-about .about-content h1{
+	font-family: 'OpenSansBold';
+}
+.bckp-home-about .about-content p{
+	font-family: 'OpenSansLight';
+}
+.bckp-home-about .about-img{
+	
+}
+.bckp-home-about .about-img img{
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+}
+.bckp-home-program{
+	position: relative;
+	min-height: 500px;
+	background-color: #ECF5F5;
+}
+.bckp-home-program .bckp-title-header h1{
+	font-family: 'OpenSansBold';
+}
+.bckp-home-program .program-item{
+
+}
+.bckp-home-program .program-img{
+}
+.bckp-home-program .program-img img{
+	width: 100%;
+	object-fit: cover;
+	height: 100%;
+}
+.bckp-home-program .program-text h5{
+	font-family: 'OpenSansSemiBold';
+}
+.bckp-home-program .program-text p{
+	font-family: 'OpenSansLight';
+}
+.bckp-home-team{
+	background-color: #FFF;
+	position: relative;
+}
+.bckp-home-team h1{
+	font-family: 'OpenSansBold';
+}
+.bckp-home-team .owl-carousel{
+	
+}
+.bckp-home-team .owl-team{
+
+}
+.bckp-home-team .owl-img img{
+	width: 100%;
+	height: 350px;
+	object-fit: cover;
+	border-radius: 15px;
+}
+.bckp-home-team .owl-nav{
+	position: absolute;
+	top: -50px;
+	right: 0;
+}
+.bckp-home-team .owl-nav button.owl-prev,
+.bckp-home-team .owl-nav button.owl-next{
+	width: 40px;
+	height: 40px;
+	background-color: #FFF;
+	border-radius: 15px;
+	margin: 0px 0px 0px 5px;
+	box-shadow: 0px 1px 5px 1px #F0F0F0;
+}
+.bckp-home-team .owl-carousel button.owl-dot{
+	background: red;
+}
+.bckp-home-team .owl-bio{
+	
+}
+.bckp-home-team .owl-bio h5{
+	font-family: 'OpenSansBold';
+}
+.bckp-home-team .owl-bio p{
+	font-family: 'OpenSansLight';
+}
+.bckp-home-support .owl-nav{
+	position: absolute;
+	top: -50px;
+	right: 0;
+}
+.bckp-home-support .owl-nav button.owl-prev,
+.bckp-home-support .owl-nav button.owl-next{
+	width: 40px;
+	height: 40px;
+	background-color: #FFF;
+	border-radius: 15px;
+	margin: 0px 0px 0px 5px;
+	box-shadow: 0px 1px 5px 1px #F0F0F0;
+}
+.bckp-home-support{
+	position: relative;
+	min-height: 500px;
+	background-color: #ECF5F5;
+}
+.bckp-home-support h1{
+	font-family: 'OpenSansBold';
+}
+.bckp-home-support .owl-item{
+	background-color: #FFF;
+	border-radius: 12px;
+}
+.bckp-home-support .owl-img{
+	position: relative;
+	overflow: hidden;
+}
+.bckp-home-support .owl-img img{
+	width: 100%;
+	height: 350px;
+	object-fit: contain;
+	border-radius: 15px;
+}
+.footer{
+	background: #FFF;
+}
+.footer .social-media{
+	display: flex;
+}
+.footer .social-media .icon{
+	background: #EA472C;
+	width: 40px;
+	height: 40px;
+	margin-right: 15px;
+	line-height: 40px;
+	border-radius: 50%;
+	text-align: center;
+}
+.footer .social-media a{
+	color: #FFF;
+	font-size: 20px;
+}
+.footer .about h5,
+.footer .contact h5,
+.footer .quicklink h5{
+	font-family: 'OpenSansBold';
+	color: #EA472C;
+}
+.footer .about p,
+.footer .contact p{
+	margin: 5px 0px;
+	font-family: 'OpenSansSemiBold';
+}
+.footer .quicklink p{
+	margin: 5px 0px;
+}
+.footer .about span,
+.footer .contact span,
+.footer .quicklink span{
+	color: #555;	
+}
+.footer .quicklink a{
+	text-decoration: none;
+	color: #555;
+}
+.footer .license{
+	text-align: center;
+	
+}
+
+@media(max-width: 576px){
+	.navbar{
+		position: relative;
+		display: flex;
+	}
+	.navbar .nav-item{
+		margin-left: 0;
+	}
+	.bckp-home-hero{
+		position: relative;
+		overflow: hidden;
+		height: 500px;
+	}	
+	.bckp-home-hero-img{
+		position: relative;
+		overflow: hidden;
+		width: 100%;
+		height: 100%;
+	}
+	.bckp-home-hero-img img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	.bckp-home-about{
+
+	}
+	.bckp-home-about .bckp-home-about-content{
+		display: block;
+	}
+	.bckp-home-about .about-content{
+		text-align: center;
+	}
+	.footer{
+		text-align: center;
+	}
+	.footer .about,
+	.footer .contact,
+	.footer .quicklink{
+		margin-bottom: 20px;
+	}
+	.footer .social-media{
+		justify-content: center;
+	}
+
+}
